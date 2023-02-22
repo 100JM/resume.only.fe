@@ -1,4 +1,4 @@
-import { Button } from 'react-bootstrap';
+import { Badge } from 'react-bootstrap';
 const Experience = () => {
 
     return(
@@ -15,7 +15,7 @@ const Experience = () => {
                     <span>
                         2021.09 ~ 2022.08
                     </span>
-                    {/*<div><Button size ='sm' type='null'>12개월</Button></div>*/}
+                    <h6><Badge bg="primary">12개월</Badge></h6>
                 </div>
                 <div className='skillRight pl15'>
                     <div className='experList'>
@@ -29,11 +29,21 @@ const Experience = () => {
                             <ul className='pt15'>
                                 <li>
                                     시가표준액 정보시스템 1차 개발 & 유지보수
-                                    <span style={{fontSize : '14px', paddingLeft : '5px'}}><a href='https://branched-show-09d.notion.site/1-aa00aeb3a98a42e2954c92d74a4d44f1' target='_blank'>참고 URL</a></span>
                                 </li>
                                 <li>
                                     시가표준액 정보시스템 2차 개발
-                                    <span style={{fontSize : '14px', paddingLeft : '5px'}}><a href='https://branched-show-09d.notion.site/2-54c09d9b6cb2410886bab64b557a0188' target='_blank'>참고 URL</a></span>
+                                </li>
+                                <li>
+                                    Skill Keywords
+                                    <div>
+                                        <Badge bg="dark" className='mr5'>Java</Badge>
+                                        <Badge bg="dark" className='mr5'>Spring boot</Badge>
+                                        <Badge bg="dark" className='mr5'>Javascript</Badge>
+                                        <Badge bg="dark" className='mr5'>jQuery</Badge>
+                                        <Badge bg="dark" className='mr5'>mybatis</Badge>
+                                        <Badge bg="dark" className='mr5'>Postgresql</Badge>
+                                        <Badge bg="dark" className='mr5'>SVN</Badge>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -41,6 +51,52 @@ const Experience = () => {
                 </div>
             </div>
             <hr/>
+            <div className='mySkill pt15'>
+                <div className='skillLeft'>
+                    <span>
+                        2021.02 ~ 2021.08
+                    </span>
+                    <h6><Badge bg="primary">6개월</Badge></h6>
+                </div>
+                <div className='skillRight pl15'>
+                    <div className='experList'>
+                        <div>
+                            <div>
+                                <span className='experTitle'>한국스마트정보교육원(전주)</span>
+                            </div>
+                            <div>
+                                <i style={{color : 'gray', fontSize : '15px'}}>응용 소프트웨어 개발자 양성 과정</i>
+                            </div>
+                            <ul className='pt15'>
+                                <li>
+                                    응용SW 및 DB엔지니어링 융합 / NCS직종 : 20010202 6개월과정
+                                    {/*<span style={{fontSize : '14px', paddingLeft : '5px'}}><a href='https://branched-show-09d.notion.site/WMS-a8c8b332071d4ddda6b0ef1411ecf80f' target='_blank'>참고 URL</a></span>*/}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div className='mySkill pt15'>
+                <div className='skillLeft'>
+                    <span>
+                        2011.03 ~ 2019.08
+                    </span>
+                </div>
+                <div className='skillRight pl15'>
+                    <div className='experList'>
+                        <div>
+                            <div>
+                                <span className='experTitle'>원광대학교</span>
+                            </div>
+                            <div>
+                                <i style={{color : 'gray', fontSize : '15px'}}>경영학부 학사 졸업</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

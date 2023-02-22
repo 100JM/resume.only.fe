@@ -32,7 +32,7 @@ body {
 
 .myImg {
     max-width: 100%;
-    height: 95%;
+    max-height: 370px;
     border-radius: 2%;
 }
 
@@ -93,6 +93,10 @@ body {
     padding-top: 30px;
 }
 
+.mr5 {
+    margin-right: 5px;
+}
+
 .contact {
     display: flex;
     padding-top: 15px;
@@ -110,7 +114,7 @@ body {
     font-family: var(--font-bold);
 }
 
-.row {
+.rows {
     padding: 10px;
     border-radius: 5px;
     background-color: gainsboro;
@@ -147,8 +151,8 @@ p {
 }
 
 a {
-    text-decoration-line: none;
-    color: #3c78d8;
+    text-decoration: none !important;
+    color: #3c78d8 !important;
 }
 
 @font-face {

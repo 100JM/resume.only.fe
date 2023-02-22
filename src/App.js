@@ -7,6 +7,7 @@ import {faFaceSmile} from "@fortawesome/free-regular-svg-icons";
 import Intro from "./component/Intro";
 import Skill from "./component/Skill";
 import Experience from "./component/Experience";
+import Project from "./component/Project";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
                         <FontAwesomeIcon icon={faLink} size='lg' style={{paddingRight : 10}}/>
                         <a href='https://branched-show-09d.notion.site/e6558b29a9f04e4c8c734d4ebe57e1dd' target='_blank'>Notion에서 확인하기</a>
                     </div>
-                    <div className="row">
+                    <div className="rows">
                         <div>
                             <FontAwesomeIcon icon={faFaceSmile} size='lg' style={{paddingRight : 10}}/>
                             근면, 성실, 노력하는 개발자가 되겠습니다.
@@ -58,6 +59,7 @@ function App() {
         <Intro></Intro>
         <Skill></Skill>
         <Experience></Experience>
+        <Project></Project>
       </div>
   );
 }
