@@ -6,6 +6,8 @@ import {faPhone, faEnvelope, faLink} from "@fortawesome/free-solid-svg-icons";
 import {faFaceSmile} from "@fortawesome/free-regular-svg-icons";
 import Intro from "./component/Intro";
 import Skill from "./component/Skill";
+import Experience from "./component/Experience";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
@@ -55,6 +57,7 @@ function App() {
         </div>
         <Intro></Intro>
         <Skill></Skill>
+        <Experience></Experience>
       </div>
   );
 }

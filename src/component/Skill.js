@@ -2,7 +2,7 @@
 const Skill = () => {
 
     return (
-        <div className=''>
+        <div className='pt30'>
             <div>
                 <div className='myName'>
                     <span>
