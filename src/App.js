@@ -8,6 +8,7 @@ import Intro from "./component/Intro";
 import Skill from "./component/Skill";
 import Experience from "./component/Experience";
 import Project from "./component/Project";
+import Etc from "./component/Etc";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -60,6 +61,19 @@ function App() {
         <Skill></Skill>
         <Experience></Experience>
         <Project></Project>
+        <Etc></Etc>
+          <div className="foot">
+              <div>
+                 <small>
+                     <a href='https://github.com/100JM/resume.only.fe' target='_blank'>Github</a> / <a target="_blank" href="https://icons8.com/icon/Ui-Gvj39jAHm/hundred-points">Hundred Points</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                 </small>
+              </div>
+              <div>
+                  <small>
+                      React / bootstrap v5.2.3 / fortawesome v6.3.0
+                  </small>
+              </div>
+          </div>
       </div>
   );
 }
