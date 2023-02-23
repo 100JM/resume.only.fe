@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/resume.only.fe/static/css/main.0e782ed1.css",
-    "main.js": "/resume.only.fe/static/js/main.1a7e137c.js",
+    "main.css": "/resume.only.fe/static/css/main.2164ad47.css",
+    "main.js": "/resume.only.fe/static/js/main.ce78ee3c.js",
     "static/js/787.97a81045.chunk.js": "/resume.only.fe/static/js/787.97a81045.chunk.js",
     "static/media/KakaoTalk_20230217_174824365.png": "/resume.only.fe/static/media/KakaoTalk_20230217_174824365.d49ae1fada343f7abb0b.png",
     "static/media/NotoSansKR-Medium.otf": "/resume.only.fe/static/media/NotoSansKR-Medium.56207b5e52841342a21b.otf",
     "static/media/NotoSansKR-Light.otf": "/resume.only.fe/static/media/NotoSansKR-Light.636ff9b51e826a733c3d.otf",
     "index.html": "/resume.only.fe/index.html",
-    "main.0e782ed1.css.map": "/resume.only.fe/static/css/main.0e782ed1.css.map",
-    "main.1a7e137c.js.map": "/resume.only.fe/static/js/main.1a7e137c.js.map",
+    "main.2164ad47.css.map": "/resume.only.fe/static/css/main.2164ad47.css.map",
+    "main.ce78ee3c.js.map": "/resume.only.fe/static/js/main.ce78ee3c.js.map",
     "787.97a81045.chunk.js.map": "/resume.only.fe/static/js/787.97a81045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e782ed1.css",
-    "static/js/main.1a7e137c.js"
+    "static/css/main.2164ad47.css",
+    "static/js/main.ce78ee3c.js"
   ]
 }
